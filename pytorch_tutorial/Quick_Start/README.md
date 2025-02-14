@@ -7,160 +7,46 @@
 3. optimizing model parameters (모델 매개변수 최적화)
 4. saving the trained models (학습된 모델 저장)
 
-5. saving the trained models (학습된 모델 저장)
-6. saving the trained models (학습된 모델 저장)
-7. saving the trained models (학습된 모델 저장)
-8. saving the trained models (학습된 모델 저장)
-9. saving the trained models (학습된 모델 저장)
-10. saving the trained models (학습된 모델 저장)
-11. saving the trained models (학습된 모델 저장)
-12. saving the trained models (학습된 모델 저장)
-13. saving the trained models (학습된 모델 저장)
-14. saving the trained models (학습된 모델 저장)
-15. saving the trained models (학습된 모델 저장)
-16. saving the trained models (학습된 모델 저장)
-17. saving the trained models (학습된 모델 저장)
-18. saving the trained models (학습된 모델 저장)
-19. saving the trained models (학습된 모델 저장)
-20. saving the trained models (학습된 모델 저장)
-21. saving the trained models (학습된 모델 저장)
-22. saving the trained models (학습된 모델 저장)
-23. saving the trained models (학습된 모델 저장)
-24. saving the trained models (학습된 모델 저장)
-25. saving the trained models (학습된 모델 저장)
-26. saving the trained models (학습된 모델 저장)
-27. saving the trained models (학습된 모델 저장)
-28. saving the trained models (학습된 모델 저장)
-29. saving the trained models (학습된 모델 저장)
-30. saving the trained models (학습된 모델 저장)
-31. saving the trained models (학습된 모델 저장)
-32. saving the trained models (학습된 모델 저장)
-33. saving the trained models (학습된 모델 저장)
-34. saving the trained models (학습된 모델 저장)
-35. saving the trained models (학습된 모델 저장)
-36. saving the trained models (학습된 모델 저장)
-37. saving the trained models (학습된 모델 저장)
-38. saving the trained models (학습된 모델 저장)
-39. saving the trained models (학습된 모델 저장)
-40. saving the trained models (학습된 모델 저장)
-41. saving the trained models (학습된 모델 저장)
-42. saving the trained models (학습된 모델 저장)
-43. saving the trained models (학습된 모델 저장)
-44. saving the trained models (학습된 모델 저장)
-45. saving the trained models (학습된 모델 저장)
-46. saving the trained models (학습된 모델 저장)
-47. saving the trained models (학습된 모델 저장)
-48. saving the trained models (학습된 모델 저장)
-49. saving the trained models (학습된 모델 저장)
-50. saving the trained models (학습된 모델 저장)
-51. saving the trained models (학습된 모델 저장)
-52. saving the trained models (학습된 모델 저장)
-53. saving the trained models (학습된 모델 저장)
-54. saving the trained models (학습된 모델 저장)
-55. saving the trained models (학습된 모델 저장)
-56. saving the trained models (학습된 모델 저장)
-57. saving the trained models (학습된 모델 저장)
-58. saving the trained models (학습된 모델 저장)
-59. saving the trained models (학습된 모델 저장)
-60. saving the trained models (학습된 모델 저장)
-61. saving the trained models (학습된 모델 저장)
-62. saving the trained models (학습된 모델 저장)
-63. saving the trained models (학습된 모델 저장)
-64. saving the trained models (학습된 모델 저장)
-65. saving the trained models (학습된 모델 저장)
-66. saving the trained models (학습된 모델 저장)
-67. saving the trained models (학습된 모델 저장)
-68. saving the trained models (학습된 모델 저장)
-69. saving the trained models (학습된 모델 저장)
-70. saving the trained models (학습된 모델 저장)
-71. saving the trained models (학습된 모델 저장)
-72. saving the trained models (학습된 모델 저장)
-73. saving the trained models (학습된 모델 저장)
-74. saving the trained models (학습된 모델 저장)
-75. saving the trained models (학습된 모델 저장)
-76. saving the trained models (학습된 모델 저장)
-77. saving the trained models (학습된 모델 저장)
-78. saving the trained models (학습된 모델 저장)
-79. saving the trained models (학습된 모델 저장)
-80. saving the trained models (학습된 모델 저장)
-81. saving the trained models (학습된 모델 저장)
-82. saving the trained models (학습된 모델 저장)
-83. saving the trained models (학습된 모델 저장)
-84. saving the trained models (학습된 모델 저장)
-85. saving the trained models (학습된 모델 저장)
-86. saving the trained models (학습된 모델 저장)
-87. saving the trained models (학습된 모델 저장)
-88. saving the trained models (학습된 모델 저장)
-89. saving the trained models (학습된 모델 저장)
-90. saving the trained models (학습된 모델 저장)
-91. saving the trained models (학습된 모델 저장)
-92. saving the trained models (학습된 모델 저장)
-93. saving the trained models (학습된 모델 저장)
-94. saving the trained models (학습된 모델 저장)
-95. saving the trained models (학습된 모델 저장)
-96. saving the trained models (학습된 모델 저장)
-97. saving the trained models (학습된 모델 저장)
-98. saving the trained models (학습된 모델 저장)
-99. saving the trained models (학습된 모델 저장)
-100. saving the trained models (학습된 모델 저장)
-101. saving the trained models (학습된 모델 저장)
-102. saving the trained models (학습된 모델 저장)
-103. saving the trained models (학습된 모델 저장)
-104. saving the trained models (학습된 모델 저장)
-105. saving the trained models (학습된 모델 저장)
-106. saving the trained models (학습된 모델 저장)
-107. saving the trained models (학습된 모델 저장)
-108. saving the trained models (학습된 모델 저장)
-109. saving the trained models (학습된 모델 저장)
-110. saving the trained models (학습된 모델 저장)
-111. saving the trained models (학습된 모델 저장)
-112. saving the trained models (학습된 모델 저장)
-113. saving the trained models (학습된 모델 저장)
-114. saving the trained models (학습된 모델 저장)
-115. saving the trained models (학습된 모델 저장)
-116. saving the trained models (학습된 모델 저장)
-117. saving the trained models (학습된 모델 저장)
-118. saving the trained models (학습된 모델 저장)
-119. saving the trained models (학습된 모델 저장)
-120. saving the trained models (학습된 모델 저장)
-121. saving the trained models (학습된 모델 저장)
-122. saving the trained models (학습된 모델 저장)
-123. saving the trained models (학습된 모델 저장)
-124. saving the trained models (학습된 모델 저장)
-125. saving the trained models (학습된 모델 저장)
-126. saving the trained models (학습된 모델 저장)
-127. saving the trained models (학습된 모델 저장)
-128. saving the trained models (학습된 모델 저장)
-129. saving the trained models (학습된 모델 저장)
-130. saving the trained models (학습된 모델 저장)
-131. saving the trained models (학습된 모델 저장)
-132. saving the trained models (학습된 모델 저장)
-133. saving the trained models (학습된 모델 저장)
-134. saving the trained models (학습된 모델 저장)
-135. saving the trained models (학습된 모델 저장)
-136. saving the trained models (학습된 모델 저장)
-137. saving the trained models (학습된 모델 저장)
-138. saving the trained models (학습된 모델 저장)
-139. saving the trained models (학습된 모델 저장)
-140. saving the trained models (학습된 모델 저장)
-141. saving the trained models (학습된 모델 저장)
-142. saving the trained models (학습된 모델 저장)
-143. saving the trained models (학습된 모델 저장)
-144. saving the trained models (학습된 모델 저장)
-145. saving the trained models (학습된 모델 저장)
-146. saving the trained models (학습된 모델 저장)
-147. saving the trained models (학습된 모델 저장)
-148. saving the trained models (학습된 모델 저장)
-149. saving the trained models (학습된 모델 저장)
-150. saving the trained models (학습된 모델 저장)
-151. saving the trained models (학습된 모델 저장)
-152. saving the trained models (학습된 모델 저장)
-153. saving the trained models (학습된 모델 저장)
-154. saving the trained models (학습된 모델 저장)
-155. saving the trained models (학습된 모델 저장)
-156. saving the trained models (학습된 모델 저장)
-157. saving the trained models (학습된 모델 저장)
-158. saving the trained models (학습된 모델 저장)
-159. saving the trained models (학습된 모델 저장)
-
 ## Working with data
+
+pytorch에는 데이터를 처리하는 두 가지 기본형이 있다.
+
+- torch.utils.data.DataLoader
+- torch.utils.data.DataSet.
+
+```python
+import torch
+from torch import nn
+from torch.utils.data import DataLoader
+from torchvision import datasets
+from torchvision.transforms import ToTensor
+```
+
+```python
+DataLoader(dataset, batch_size=16, shuffle=False, )
+```
+
+DataLoader의 파라미터 dataset, batch_size, shuffle
+
+### **batch_size**
+
+- batch란 학습을 할 때 모델에 한번에 들어가게 되는 데이터 집합을 의미한다.
+- 이 때 이 batch에 포함된 데이터의 개수를 batch size라고 한다.
+
+  ![batch_size](./images/batch_size.png)
+
+  > epoch은 train 데이터 전체를 한 번 보는 기준으로 생각하면 된다.
+
+**batch_size와 학습 시간**
+<br>
+학습을 할때 일반적으로 GPU를 사용하므로 batch_size와 상관없이 하나의 batch를 학습하는 시간은 동일하다. 그러므로 1000개의 데이터를 batch_size를 1로 학습했을 때 1000번 학습을 하지만
+1000개의 데이터를 batch_size를 1000으로 학습하게 되면 1번 학습을 진행한다.
+
+**batch_size와 학습**
+batch_size가 클때: 많은 양의 데이터를 한번에 볼 수 있다는 것이다. 이 경우 학습을 하고 모델의 가중치를 갱신할 때 최적화된 경로로 가중치를 갱신하게 된다.
+
+batch_size가 작을때: 학습을 진행할 때 batch에 특이값(Outlier)가 포함되었을 때 실제 최적화된 경로가 아닌 다른 경로로 모델의 가중치가 갱신된다.
+
+![batch_size](./images/batch_size2.png)
+
+이렇게 보면 batch_size가 큰게 좋아 보이지만 실제로 local optimal에 빠지게 되면 거기서 빠져 나올 방법이 없지만 batch_size가 작은 경우는 local optimal에 빠지게 되더라도 batch 내부의 트이값 혹은 그 자체의 분포가 실제 train 데이터의 분포와 다르기 때문에 train 데이터의 최적화 된 경로가 아닌 다른 경로로 움직여 local optimal에서 빠져나올 수 있게된다.
