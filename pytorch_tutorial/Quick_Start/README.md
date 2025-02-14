@@ -7,9 +7,6 @@
 3. optimizing model parameters (모델 매개변수 최적화)
 4. saving the trained models (학습된 모델 저장)
 
-## Working with data
-
-4. saving the trained models (학습된 모델 저장)
 5. saving the trained models (학습된 모델 저장)
 6. saving the trained models (학습된 모델 저장)
 7. saving the trained models (학습된 모델 저장)
@@ -164,3 +161,6 @@
 156. saving the trained models (학습된 모델 저장)
 157. saving the trained models (학습된 모델 저장)
 158. saving the trained models (학습된 모델 저장)
+159. saving the trained models (학습된 모델 저장)
+
+## Working with data
