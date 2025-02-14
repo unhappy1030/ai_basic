@@ -52,3 +52,5 @@ DataLoader의 파라미터 dataset, batch_size, shuffle
 ![batch_size](./images/batch_size2.png)
 
 이렇게 보면 batch_size가 큰게 좋아 보이지만 실제로 local optimal에 빠지게 되면 거기서 빠져 나올 방법이 없지만 batch_size가 작은 경우는 local optimal에 빠지게 되더라도 batch 내부의 트이값 혹은 그 자체의 분포가 실제 train 데이터의 분포와 다르기 때문에 train 데이터의 최적화 된 경로가 아닌 다른 경로로 움직여 local optimal에서 빠져나올 수 있게된다.
+
+> local optimal은 local minimun, local maximum을 포함하는 용어
