@@ -3,7 +3,7 @@
 ### machine learing work flow
 
 1. [working with data (데이터 작업)](#working-with-data)
-2. creating models (모델 생성)
+2. [creating models (모델 생성)](#creating-models)
 3. optimizing model parameters (모델 매개변수 최적화)
 4. saving the trained models (학습된 모델 저장)
 
@@ -60,7 +60,8 @@ DataLoader의 파라미터 dataset, batch_size, shuffle
 ### DataSet 준비
 
 - torchvision.datasets모듈의 FashionMNIST 데이터 사용
-  > [custom dataset 만들기](../CustomDataSet/README.md)
+
+> ### [custom dataset 만들기](../CustomDataSet/README.md)
 
 ```python
 # Download training data from open datasets.
@@ -94,3 +95,7 @@ for X, y in test_dataloader:
     print(f"Shape of y: {y.shape} {y.dtype}")
     break
 ```
+
+## creating models
+
+- pytorch에서 신경망을 정의하려면 nn.Module에서 상속받는 클래스를 만든다.
