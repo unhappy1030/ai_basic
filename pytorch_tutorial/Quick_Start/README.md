@@ -60,7 +60,7 @@ DataLoader의 파라미터 dataset, batch_size, shuffle
 ### DataSet 준비
 
 - torchvision.datasets모듈의 FashionMNIST 데이터 사용
-  > [custom dataset 만들기](pytorch_tutorial\CustomDataSet)
+  > [custom dataset 만들기](../CustomDataSet)
 
 ```python
 # Download training data from open datasets.
