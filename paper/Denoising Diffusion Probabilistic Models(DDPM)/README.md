@@ -73,3 +73,38 @@ $p(z)$: 잠재 변수 z의 prior 분포 (일반적으로 z~ N(0,I))
 질문거리
 
 - flow-based 모델의 가역적인 변환을 이용하는 데 이 부분은 diffusion에서도 동일하게 이용하는 거 같아 보이는데 혹시 flow-based model과 diffusion의 차이가 뭘까요?
+
+## Diffusion Probabilistic Models (김인중 교수님)
+
+### Generative Models
+
+- Learn $P(x)$ or $P(x|y)$ 샘플 자체의 확률 분포 자체를 학습 (여기서 y는 class나 label을 의미한다)
+  - $P(x)$를 학습할 때는 Unsupervised Learning을 한다는 장점이 있다.
+
+### Deep Generative Models
+
+- Likelihood models
+  - Autoregressive models(AR) -> likelihood의 근사값을 사용하는 모델이다.
+  - Variational Auto-encoders(VAE)
+  - Normalizing flow
+  - Diffusion probabilistic models(DPM)
+- Non-likelihood model
+  - Generative Adversarial Network(GAN)
+
+### 각 Generative 모델들의 장단점
+
+- Autoregressive models
+  - 굉장히 강력하고 자연어 분야에서 큰 성과를 거두었다.
+  - 단점 1. 느리다 -> sequencial processing을 필요로함
+  - 단점 2. latent space를 학습하기 어렵다. -> 추상적인 관계를 학습하기 어렵다.
+- Variational inference (VAE)
+  - feature learning을 할때 장점이 있다.
+  - 단점 1. exact likelihood를 학습하지 않는다.
+  - 단점 2. 모델링 파워가 낮다?
+- Normalizing flow
+  - 단점 1. invertable function을 사용해야한다는 제약 조건이 있다.
+  - 단점 2. 제한된 모델 구조를 가지게 된다.
+  - 단점 3. 같은 일을 한다고 가정했을 때 더 큰 모델을 사용해야한다.(Parameter-inefficiency)
+- Generative adversarial networks(GAN)
+  - 단점 1. 학습의 불안정성이 완전하게 해결되지 않았다.(하이퍼 파라미터를 조심스럽게 튜닝해야한다.)
+  - 단점 2. 결과물의 다양성이 좋지않다.
