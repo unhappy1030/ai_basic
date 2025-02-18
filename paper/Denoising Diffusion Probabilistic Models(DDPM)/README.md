@@ -55,6 +55,21 @@ $p(z)$: 잠재 변수 z의 prior 분포 (일반적으로 z~ N(0,I))
 
 ### Diffusion based generative model
 
+![diffusion based model](./images/diffusion_based_model.png)
+
 - Diffusion process: $q(z|x)$
 - Sampling process: $P_\theta(x|z)$
 - 생성에 활용되는 조건부 확률 분포 $P_\theta(x|z)$을 학습하기 위해 Diffusion process $q(z|x)$를 활용
+
+> Sampling process가 학습 대상이다.
+
+- 최종 목표로 $p_\theta(X_{t-1} | X_t) \approx q(X_{t-1} | X_t)$
+- 이 과정을 스탭을 잘게 쪼개서 만드는 것이다.( ex. T = 1,000)
+
+### 스터디 내용 정리
+
+> KL Divergence가 중요하다, 수식 전개 한 번 해보기
+
+질문거리
+
+- flow-based 모델의 가역적인 변환을 이용하는 데 이 부분은 diffusion에서도 동일하게 이용하는 거 같아 보이는데 혹시 flow-based model과 diffusion의 차이가 뭘까요?
