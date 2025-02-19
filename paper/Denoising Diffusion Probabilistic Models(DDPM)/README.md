@@ -108,3 +108,13 @@ $p(z)$: 잠재 변수 z의 prior 분포 (일반적으로 z~ N(0,I))
 - Generative adversarial networks(GAN)
   - 단점 1. 학습의 불안정성이 완전하게 해결되지 않았다.(하이퍼 파라미터를 조심스럽게 튜닝해야한다.)
   - 단점 2. 결과물의 다양성이 좋지않다.
+
+## Diffusion Probabilistic Models
+
+- Probabilistic model
+- Fast, Parameter efficient
+- Flexible
+
+### Foward Trajectory
+
+-
