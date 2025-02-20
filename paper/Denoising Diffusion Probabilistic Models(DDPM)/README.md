@@ -137,3 +137,8 @@ $p(z)$: 잠재 변수 z의 prior 분포 (일반적으로 z~ N(0,I))
 - 마르코프 체인을 사용하지 않고 더 과거의 값을 같이 사용하여 다음 값을 정한다.
 
 ### Formulation
+
+### Classifier Guidance
+
+- conditional 부분에 해당
+- class를 지정하여 해당 하는 class의 분포 쪽으로 sampling 되도록한다.
