@@ -117,4 +117,23 @@ $p(z)$: 잠재 변수 z의 prior 분포 (일반적으로 z~ N(0,I))
 
 ### Foward Trajectory
 
--
+- Log likelihood maximization
+- 수작적인 트릭을 사용 -> log를 중앙으로 넣는다 -> 로그가 안으로 들어가면 밖에 있을때보다 작아진다.
+- $\epsilon_\theta$ : 노이즈 벡터
+- noise predictor : $\epsilon_\theta(x_t, t)$
+
+- 샘플링 방법 : Langevin dynamics
+
+- score network and noise predictor
+
+- setting $T$ = 1000, $\beta_1$ = $10^-4$, $\beta_T$ = 0.02
+
+## Denoising Diffusion Implicit Models (DDIM)
+
+- 문제점 : 좋은 결과를 얻기 위해서는 1000~4000 step 정도가 필요하므로 시간이 너무 많이 걸리게 된다.
+- Non-Markovian diffusion process
+- 10x ~ 50x faster than DDPM
+
+- 마르코프 체인을 사용하지 않고 더 과거의 값을 같이 사용하여 다음 값을 정한다.
+
+### Formulation
