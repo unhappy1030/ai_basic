@@ -117,6 +117,21 @@ $p(z)$: 잠재 변수 z의 prior 분포 (일반적으로 z~ N(0,I))
 
 ### Foward Trajectory
 
+- Markov diffusion kernel (바로 전 값만 사용하겠다)
+
+- $\pi(y) = \int{dy' T_\pi(y|y';\beta)\pi(y')}$ (1)
+- $q(x_t|x_{t-1}) = T_\pi(x_t|x_{t-1};\beta_t)$ (2)
+
+  - $q(x_t|x_{t-1})$ : Gaussian (or binomial) diffusion ($\beta$ : diffusion rate)
+  - $q(x_t|x_{t-1}) = N(x_t;\sqrt{1-\beta}x_{t-1}, \beta_tI)$
+
+### Reverse Trajectory
+
+- Restore data from noise
+
+  - $p(x_T) = \pi(x_T)$ (4)
+  - $p(x_{0...T}) = p(x_T)\displaystyle \prod_{t=1}^T p(x_{t-1}|x_t)$ (5)
+
 - Log likelihood maximization
 - 수작적인 트릭을 사용 -> log를 중앙으로 넣는다 -> 로그가 안으로 들어가면 밖에 있을때보다 작아진다.
 - $\epsilon_\theta$ : 노이즈 벡터
