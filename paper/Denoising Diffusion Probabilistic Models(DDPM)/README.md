@@ -120,6 +120,11 @@ $p(z)$: 잠재 변수 z의 prior 분포 (일반적으로 z~ N(0,I))
 - Markov diffusion kernel (바로 전 값만 사용하겠다)
 
 - $\pi(y) = \int{dy' T_\pi(y|y';\beta)\pi(y')}$ (1)
+
+  - **수식 설명**
+  - $\pi(y)$: $y$상태에서의 확률 분포. 여기서 $\pi(y)$는 Markov Chain Monte Calro(MCMC)나 확률적 과정에서 사용되는 목표 분포(taget distribution)로 이해된다. 그렇다면 $\pi(y)$는 정해진 분포이고 주로 diffusion에서는 가우시안 노이즈를 사용한다.
+  - 확률 분포: 확률 변수가 특정한 값을 가질 확률을 나타내는 함수
+
 - $q(x_t|x_{t-1}) = T_\pi(x_t|x_{t-1};\beta_t)$ (2)
 
   - $q(x_t|x_{t-1})$ : Gaussian (or binomial) diffusion ($\beta$ : diffusion rate)
@@ -133,7 +138,7 @@ $p(z)$: 잠재 변수 z의 prior 분포 (일반적으로 z~ N(0,I))
   - $p(x_{0...T}) = p(x_T)\displaystyle \prod_{t=1}^T p(x_{t-1}|x_t)$ (5)
 
 - Log likelihood maximization
-- 수작적인 트릭을 사용 -> log를 중앙으로 넣는다 -> 로그가 안으로 들어가면 밖에 있을때보다 작아진다.
+- 수학적인 트릭을 사용 -> log를 중앙으로 넣는다 -> 로그가 안으로 들어가면 밖에 있을때보다 작아진다.
 - $\epsilon_\theta$ : 노이즈 벡터
 - noise predictor : $\epsilon_\theta(x_t, t)$
 
