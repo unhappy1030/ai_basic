@@ -122,13 +122,18 @@ $p(z)$: 잠재 변수 z의 prior 분포 (일반적으로 z~ N(0,I))
 - $\pi(y) = \int{dy' T_\pi(y|y';\beta)\pi(y')}$ (1)
 
   - **수식 설명**
-  - $\pi(y)$: $y$상태에서의 확률 분포. 여기서 $\pi(y)$는 Markov Chain Monte Calro(MCMC)나 확률적 과정에서 사용되는 목표 분포(taget distribution)로 이해된다. 그렇다면 $\pi(y)$는 정해진 분포이고 주로 diffusion에서는 가우시안 노이즈를 사용한다.
-  - 확률 분포: 확률 변수가 특정한 값을 가질 확률을 나타내는 함수
+  - $\pi(y)$: $y$상태에서의 확률 분포. 여기서 $\pi(y)$는 Markov Chain Monte Calro(MCMC)나 확률적 과정에서 사용되는 목표 분포(taget distribution)로 이해된다. 그렇다면 $\pi(y)$는 정해진 분포이고 주로 diffusion에서는 가우시안 노이즈를 사용한다. 즉 최종적으로 계산하고자 하는 확률 분포를 나타냄
+  - 확률 분포: 확률 변수가 특정한 값을 가질 확률을 나타내는 함수. $\pi(y)$와 $\pi(y')$가 각각 $y$와 $y'$ 상태의 확률 분포를 나타냄
+  - $\int{dy'}$: 이전의 $y'$값을 모든 가능한 경우에 대해 누적적으로 살펴본다는 의미. 수학적으로는 $T_\pi(y|y';\beta)\pi(y')$를 $y'$에 대해서 적분함으로써 $y$상태의 전체확률을 계산함.
+  - $T_\pi(y|y';\beta)$: $y'$에서 $y$로 넘어갈 전이 확률(transition probability).
+  - $\pi(y')$: $y'$상태에서의 확률 분포
 
 - $q(x_t|x_{t-1}) = T_\pi(x_t|x_{t-1};\beta_t)$ (2)
 
   - $q(x_t|x_{t-1})$ : Gaussian (or binomial) diffusion ($\beta$ : diffusion rate)
   - $q(x_t|x_{t-1}) = N(x_t;\sqrt{1-\beta}x_{t-1}, \beta_tI)$
+
+  - $q(x_{0...T}) = q(x_0)\displaystyle \prod_{t=1}^T q(x_t|x_{t-1})$ (3)
 
 ### Reverse Trajectory
 
