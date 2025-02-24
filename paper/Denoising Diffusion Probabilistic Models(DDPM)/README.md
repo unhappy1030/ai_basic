@@ -117,7 +117,12 @@ $p(z)$: 잠재 변수 z의 prior 분포 (일반적으로 z~ N(0,I))
 
 ### Foward Trajectory
 
+- 이미지를 노이즈를 씌워서 망가트리는 과정이다.
+- $q(x_0)$에서 $x_0$는 diffusion되지 않은 깨끗한 데이터를 의미한다.
 - Markov diffusion kernel (바로 전 값만 사용하겠다)
+
+  - **용어 설명**
+  - diffusion kernel이라는 용어는 데이터 간의 전이 관계(transition)를 나타내는 함수나 행렬을 의미한다. 그러므로 여기선 $x_t$와 $x_{t-1}$간의 관계를 나타내는 함수를 diffusion kernel이라고 한다.
 
 - $\pi(y) = \int{dy' T_\pi(y|y';\beta)\pi(y')}$ (1)
 
@@ -132,8 +137,16 @@ $p(z)$: 잠재 변수 z의 prior 분포 (일반적으로 z~ N(0,I))
 - $q(x_t|x_{t-1}) = T_\pi(x_t|x_{t-1};\beta_t)$ (2)
 
   - $q(x_t|x_{t-1})$ : Gaussian (or binomial) diffusion ($\beta$ : diffusion rate)
+  - Gaussian은 경우는 continuous한 정보를 표현, binomial은 discrete한 정보를 표현하는 모델(대부분 Gaussian을 사용)
+  - **$\beta$**는 diffusion rate을 의미하고 이는 이미지가 한번에 얼마나 망가지는 지를 말한다. 즉, $\beta$값이 거치게 되면 한번에 이미지가 많이 망가지게 되고 작을 경우는 반대로 적게 망가지게 된다.
   - $q(x_t|x_{t-1}) = N(x_t;\sqrt{1-\beta}x_{t-1}, \beta_tI)$
-
+    - 어떤 확률 분포, 즉 정규 분포에 평균과 분산을 지정해서 특정 확률 분포를 만들어 x_t가 해당하는 확률분포에 맞는 값이 되도록 한다.
+    - $q(x_t|x_{t-1})$는 확률 분포 그 자체를 나타내며, $x_t$가 어떤 값을 가질 확률을 의미한다.
+    - 평균 : $\sqrt{1-\beta}x_{t-1}$, 공분산 : $\beta_tI$
+      - 여기서 공분산을 사용하는 이유는 데이터가 matrix이기에 **multivariate gaussian distribution**을 사용하므로 분산의 형태가 행렬이 되기 때문이다.
+      - 그런데 보통 공분산의 행렬 표기는 $\Sigma$이지만 이는 각 변수의 분산이 모두 다른 것을 의미한다. 그러나 diffusion에서는 분산을 모두 1로 사용하기에 $I$를 사용한다.
+      - $I$는 단위행렬(unit martrix) 또는 항등 행렬(identity matrix)라고 한다. 이는 주대각선의 원소가 모두 1이며 나머지 원소는 모두 0인 정사각 행렬이다.
+        <img src="./images/I.png" width="50%" height="50%"></img>
   - $q(x_{0...T}) = q(x_0)\displaystyle \prod_{t=1}^T q(x_t|x_{t-1})$ (3)
 
 ### Reverse Trajectory
