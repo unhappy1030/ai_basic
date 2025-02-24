@@ -144,6 +144,7 @@ $p(z)$: 잠재 변수 z의 prior 분포 (일반적으로 z~ N(0,I))
     - $q(x_t|x_{t-1})$는 확률 분포 그 자체를 나타내며, $x_t$가 어떤 값을 가질 확률을 의미한다.
     - 평균 : $\sqrt{1-\beta}x_{t-1}$, 공분산 : $\beta_tI$
       - 여기서 공분산을 사용하는 이유는 데이터가 matrix이기에 **multivariate gaussian distribution**을 사용하므로 분산의 형태가 행렬이 되기 때문이다.
+        <img src="./images/Multivariate_Gaussian_examples.png" width="50%" height="50%"></img>
       - 그런데 보통 공분산의 행렬 표기는 $\Sigma$이지만 이는 각 변수의 분산이 모두 다른 것을 의미한다. 그러나 diffusion에서는 분산을 모두 1로 사용하기에 $I$를 사용한다.
       - $I$는 단위행렬(unit martrix) 또는 항등 행렬(identity matrix)라고 한다. 이는 주대각선의 원소가 모두 1이며 나머지 원소는 모두 0인 정사각 행렬이다.
         <img src="./images/I.png" width="50%" height="50%"></img>
