@@ -149,6 +149,7 @@ $p(z)$: 잠재 변수 z의 prior 분포 (일반적으로 z~ N(0,I))
       - $I$는 단위행렬(unit martrix) 또는 항등 행렬(identity matrix)라고 한다. 이는 주대각선의 원소가 모두 1이며 나머지 원소는 모두 0인 정사각 행렬이다.
         <img src="./images/I.png" width="50%" height="50%"></img>
   - $q(x_{0...T}) = q(x_0)\displaystyle \prod_{t=1}^T q(x_t|x_{t-1})$ (3)
+    - $\displaystyle \prod_{t=1}^T$는 1~T까지의 $q(x_t|x_{t-1})$을 모두 곱하는 것을 의미한다.
 
 ### Reverse Trajectory
 
