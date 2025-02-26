@@ -156,6 +156,7 @@ $p(z)$: 잠재 변수 z의 prior 분포 (일반적으로 z~ N(0,I))
 - Restore data from noise
 
   - $p(x_T) = \pi(x_T)$ (4)
+
   - $p(x_{0...T}) = p(x_T)\displaystyle \prod_{t=1}^T p(x_{t-1}|x_t)$ (5)
 
 - Log likelihood maximization
