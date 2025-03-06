@@ -35,3 +35,6 @@ symbol or token은 시퀀스를 구성하는 가장 작은 단위들을 의미�
 ### Encorder and Decoder Stacks
 
 > Encoder: N = 6, identical layers, each layer has sub-two layers
+
+- first layer : multi-head self-attention mechanism
+  - multi-head self-attention mechanism : 이 메커니즘은 입력 시퀀스 내의 각 요소가 다른 모든 요소와의 관계를 학습할 수 있도록 설계된 핵심 신경망 구조이다. 주요 구성요소로는 Query, Key, Value라는 세가지 주요 요소를 포함하며, 각 요소는 입력 임베딩에서 선형 변환을 통해 도출된다.
