@@ -41,3 +41,7 @@ preclude - 못하게 하다, ~을 불가능하게 하다
 inherent - 내재하는
 nature - 자연, 특성, 본성
 ```
+
+```
+monotic-improvement - 단조적 증가
+```
