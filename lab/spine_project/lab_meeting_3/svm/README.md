@@ -317,3 +317,30 @@ SVM(Support Vector Machine)은 두 클래스를 구분하는 결정 경계(선)�
 3. 제약 조건 정의:
    - 부등식의 좌변 s_i(c - w^T d_i)을 g_i로 정의
    - g_i ≤ 0 형태의 부등식(inequality constraint)
+
+## 랩미팅 질문
+
+### 결정 경계(Decision Boundary) 관련 질문
+
+1. ax + by = c라는 결정 경계를 어떻게 초기에 설정하나요? 이 파라미터들의 초기값은 어떤 기준으로 정해지나요?
+
+2. 결정 경계를 찾는 과정에서 a, b, c 값들이 어떻게 점진적으로 업데이트되는지 설명해주실 수 있을까요?
+
+### 최적화 방법론 관련 질문
+
+3. Primal 문제에서 Dual 문제로 전환하는 과정에서 라그랑주 승수(Lagrange multiplier)가 어떤 역할을 하는지 설명해주실 수 있을까요?
+
+4. Interior Point Method가 기존의 최적화 방법들과 비교했을 때 어떤 장점이 있나요? 특히 SVM에서는 어떤 이점이 있는건가요?
+
+5. Primal-Dual Interior Point Method에서 중심 경로(central path)를 따라가는 과정을 좀 더 직관적으로 설명해주실 수 있을까요?
+
+### 실제 구현 관련 질문
+
+6. 실제 구현 시에 Interior Point Method의 종료 조건(stopping criteria)은 어떻게 설정하는 것이 좋은가요?
+
+7. 비선형 SVM에서 커널 트릭을 사용할 때, Primal-Dual Interior Point Method는 어떻게 수정되어야 하나요?
+
+#### 질문 순서 제안
+1. 먼저 결정 경계의 초기 설정에 대해 질문 (1, 2번)
+2. 그 다음 최적화 방법론의 전체적인 흐름 이해 (3, 4번)
+3. 마지막으로 구체적인 구현 방법에 대해 질문 (6, 7번)
